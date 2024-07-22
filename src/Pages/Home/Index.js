@@ -6,6 +6,7 @@ import Achievement from '../../Components/Achievement'
 import BuildingSection from './BuildingSection'
 import Clients from '../../Components/Clients'
 import LearnCloudSection from './Learn&CloudSection'
+import Contact from '../../Components/Contact'
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
         <BuildingSection />
         <Clients />
         <LearnCloudSection />
+        <Contact />
     </div>
   )
 }
