@@ -8,6 +8,9 @@
     border: none;
     outline: none;
 }
+body {
+    background-color: #FBFAF5;
+}
 
 @font-face {
     font-family: 'CustomFont';
@@ -209,6 +212,36 @@
 .Banner {
     .img {
         background-image: url(../Assets/Images/5460d18f1730a5c9b5d4e97887482a30.jpeg);
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text {
+        background-color: var(--color-second);
+        height: 500px;
+
+        h1 {
+            font-family: var(--big-font);
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+    }
+}
+
+.BuildingSection {
+    .img {
+        background-image: url(../Assets/Images/Rectangle\ 34624626.png);
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+    .img2 {
+        background-image: url(../Assets/Images/Rectangle\ 34624626\ \(1\).png);
         height: 500px;
         background-position: center;
         background-size: cover;

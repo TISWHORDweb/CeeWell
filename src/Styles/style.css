@@ -9,6 +9,10 @@
   outline: none;
 }
 
+body {
+  background-color: #FBFAF5;
+}
+
 @font-face {
   font-family: "CustomFont";
   src: url("/src/Assets/Font/CanelaText-Bold-Trial.otf");
@@ -187,6 +191,31 @@
   font-size: 45px;
 }
 .Banner .text p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.BuildingSection .img {
+  background-image: url(../Assets/Images/Rectangle\ 34624626.png);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.BuildingSection .img2 {
+  background-image: url(../Assets/Images/Rectangle\ 34624626\ \(1\).png);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.BuildingSection .text {
+  background-color: var(--color-second);
+  height: 500px;
+}
+.BuildingSection .text h1 {
+  font-family: var(--big-font);
+  font-size: 45px;
+}
+.BuildingSection .text p {
   font-size: 20px;
   margin: 20px 0;
 }
