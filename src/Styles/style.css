@@ -476,6 +476,10 @@ body {
   margin: 0 10px;
 }
 
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
 @media only screen and (max-width: 500px) {
   .banPadding {
     padding: 70px 40px;
