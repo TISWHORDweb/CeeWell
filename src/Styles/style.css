@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-default);
+  font-family: "CustomFont2", sans-serif;
+  font-optical-sizing: auto;
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("/src/Assets/Font/CanelaText-Bold-Trial.otf");
+}
+@font-face {
+  font-family: "CustomFont2";
+  src: url("/src/Assets/Font/CanelaText-Light-Trial.otf");
+}
+.mt100 {
+  margin-top: 100px;
+}
+
+:root {
+  --color-default: #151411;
+  --color-second: #DCD7D0;
+  --color-second-light: #0000000f;
+  --color-light: #F7F6F3;
+  --color-white: #FFFFFF;
+  --big-font: "CustomFont", sans-serif;
+  --small-font: "CustomFont2", sans-serif;
+}
+
+.dark-button {
+  border: 1px solid var(--color-default);
+  padding: 8px 15px;
+  background-color: var(--color-default);
+  border-radius: 7px;
+  font-size: 15px;
+  color: var(--color-white);
+}
+
+.line-button {
+  border: 1px solid var(--color-default);
+  padding: 8px 15px;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 15px;
+  color: var(--color-default);
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar {
+  background-color: var(--color-white);
+  padding: 15px 0;
+}
+.navbar .logo img {
+  width: 150px;
+}
+.navbar .nav-link {
+  font-size: 15px;
+}
+.navbar .navbar-nav {
+  background: var(--color-light);
+  padding: 0 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.navbar .navbar-nav li {
+  margin: 5px 10px;
+}
+.navbar .navbar-nav li:hover {
+  background-color: var(--color-white);
+  border-radius: 5px;
+}
+.navbar .navbar-nav li:hover .nav-link {
+  font-family: var(--big-font) !important;
+}
+.navbar .nav-right {
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-right li {
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .nav-right li .globe {
+  width: 20px;
+}
+.navbar .nav-right li .off {
+  width: 25px;
+}
+
+.modal-content {
+  border: none !important;
+  background-color: var(--color-white);
+  margin-top: 80px;
+}
+.modal-content .drop {
+  display: flex;
+  align-items: center;
+}
+.modal-content .drop .image img {
+  width: 70px;
+}
+.modal-content .drop h4 {
+  font-family: var(--big-font);
+  font-size: 15px;
+  margin: 0;
+}
+.modal-content .drop h4 img {
+  width: 12px;
+  margin-bottom: 3px;
+}
+.modal-content .drop p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.offcanvas .btn-close {
+  color: var(--color-default);
+}
+.offcanvas .close {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.offcanvas .close img {
+  width: 25px !important;
+}
+.offcanvas .links ul {
+  padding: 0;
+}
+.offcanvas .links ul li {
+  list-style: none;
+  border-bottom: 2px solid var(--color-default);
+  padding: 20px 0;
+  text-align: right;
+  cursor: pointer;
+}
+.offcanvas .links ul li:hover {
+  border-bottom: 3px solid var(--color-default);
+}
+.offcanvas .links ul .b-none {
+  border: none !important;
+}
+.offcanvas .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+.offcanvas .social ul img {
+  width: 20px;
+}/*# sourceMappingURL=style.css.map */
