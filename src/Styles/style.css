@@ -39,6 +39,9 @@
   font-size: 15px;
   color: var(--color-white);
 }
+.dark-button:hover {
+  border: 2px solid var(--color-default);
+}
 
 .line-button {
   border: 1px solid var(--color-default);
@@ -48,6 +51,11 @@
   font-size: 15px;
   color: var(--color-default);
 }
+.line-button:hover {
+  background-color: var(--color-default);
+  color: var(--color-white);
+}
+
 .navbar-toggler {
   border: none !important;
 }
@@ -154,4 +162,33 @@
 }
 .offcanvas .social ul img {
   width: 20px;
+}
+
+.banPadding {
+  padding: 100px 70px;
+}
+
+.Banner .img {
+  background-image: url(../Assets/Images/5460d18f1730a5c9b5d4e97887482a30.jpeg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.Banner .text {
+  background-color: var(--color-second);
+  height: 500px;
+}
+.Banner .text h1 {
+  font-family: var(--big-font);
+  font-size: 45px;
+}
+.Banner .text p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .banPadding {
+    padding: 70px 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

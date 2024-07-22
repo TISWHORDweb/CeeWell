@@ -41,6 +41,9 @@
     border-radius: 7px;
     font-size: 15px;
     color: var(--color-white);
+    &:hover{
+        border: 2px solid var(--color-default);
+    }
 }
 
 .line-button{
@@ -51,7 +54,8 @@
     font-size: 15px;
     color: var(--color-default);
     &:hover{
-
+        background-color: var(--color-default);
+        color: var(--color-white);
     }
 }
 
@@ -168,5 +172,34 @@
         img{
             width: 20px;
         }
+    }
+}
+.banPadding{
+    padding: 100px 70px;
+}
+.Banner{
+    .img{
+        background-image: url(../Assets/Images/5460d18f1730a5c9b5d4e97887482a30.jpeg);
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+    .text{
+        background-color: var(--color-second);
+        height: 500px;
+        h1{
+            font-family: var(--big-font);
+            font-size: 45px;
+        }
+        p{
+            font-size: 20px;
+            margin: 20px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banPadding{
+        padding: 70px 40px;
     }
 }
