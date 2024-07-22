@@ -35,7 +35,6 @@ body {
     --color-second: #DCD7D0;
     --color-second-light: #0000000f;
     --color-light: #F7F6F3;
-    ;
     --color-white: #FFFFFF;
     --big-font: 'CustomFont', sans-serif;
     --small-font: 'CustomFont2', sans-serif;
@@ -305,6 +304,24 @@ body {
     }
     h1{
         font-family: var(--big-font);
+    }
+}
+
+.Clients{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            list-style: none;
+            margin: 15px ;
+            background: var(--color-white);
+            padding:10px ;
+            border-radius: 10px;
+            img{
+                width: 120px;
+            }
+        }
     }
 }
 

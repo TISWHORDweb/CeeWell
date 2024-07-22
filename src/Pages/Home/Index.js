@@ -4,6 +4,7 @@ import Banner from './Banner'
 import HowSection from './How-Section'
 import Achievement from '../../Components/Achievement'
 import BuildingSection from './BuildingSection'
+import Clients from '../../Components/Clients'
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
         <HowSection />
         <Achievement />
         <BuildingSection />
+        <Clients />
     </div>
   )
 }
