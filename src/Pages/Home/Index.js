@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import Banner from './Banner'
 import HowSection from './How-Section'
+import Achievement from '../../Components/Achievement'
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
         <Navbar />
         <Banner />
         <HowSection />
+        <Achievement />
     </div>
   )
 }
