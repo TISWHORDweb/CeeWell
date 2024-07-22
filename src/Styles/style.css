@@ -295,7 +295,12 @@ body {
   font-style: normal;
   padding: 30px;
 }
-.Contact .form h3, .Contact .form b, .Contact .form p, .Contact .form small, .Contact .form span, .Contact .form label {
+.Contact .form h3,
+.Contact .form b,
+.Contact .form p,
+.Contact .form small,
+.Contact .form span,
+.Contact .form label {
   font-family: "Inter", sans-serif !important;
 }
 .Contact .form label {
@@ -346,8 +351,154 @@ body {
   width: 120px;
 }
 
+.Review {
+  background-color: var(--color-second);
+  padding: 50px 0;
+}
+.Review .swiper {
+  width: 100%;
+}
+.Review .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  margin: 0 20px;
+}
+.Review .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.Review .swipeCard {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  padding: 15px;
+  border-radius: 10px;
+}
+.Review .swipeCard .text {
+  margin-left: 10px;
+  text-align: left;
+}
+.Review .swipeCard .text p {
+  font-size: 11px;
+}
+.Review .swipeCard .text span {
+  font-size: 10px;
+}
+.Review .swipeCard .text h4 {
+  font-size: 14px;
+  font-family: var(--big-font);
+  margin: 0;
+}
+.Review .swipeCard .cl img {
+  width: 150px;
+}
+.Review .swipeCard .img {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
+.Review .swipeCard .img img {
+  width: 20px;
+}
+
+.Footer {
+  background-color: var(--color-default);
+  padding: 50px 0;
+}
+.Footer .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Footer .list ul li {
+  list-style: none;
+  color: grey;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.Footer .list ul .big {
+  font-weight: 800 !important;
+  font-family: var(--big-font);
+  color: #D0DAF5;
+  font-size: 17px;
+}
+.Footer .big {
+  font-weight: 800 !important;
+  font-family: var(--big-font);
+  color: #D0DAF5;
+  font-size: 17px;
+}
+.Footer .email {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-light);
+  border: 2px solid var(--color-light);
+}
+.Footer .email input {
+  background-color: var(--color-default);
+  height: 45px;
+  padding: 0 10px;
+  width: 85%;
+  margin-right: 5px;
+}
+.Footer .email svg {
+  width: 25px;
+  height: 25px;
+}
+.Footer .IMG img {
+  width: 85%;
+}
+.Footer hr {
+  color: var(--color-light);
+}
+.Footer .down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Footer .down p {
+  color: grey;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+.Footer .down ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.Footer .down ul li {
+  list-style: none;
+  color: grey;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 500px) {
   .banPadding {
     padding: 70px 40px;
+  }
+  .Review {
+    background-color: var(--color-second);
+    padding: 50px 0;
+  }
+  .Review .swiper {
+    width: 100%;
+  }
+  .Review .swiper-slide {
+    width: 350px;
+    height: 400px;
+    margin: 0 80px;
+  }
+  .Review .swipeCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Review .swipeCard .img img {
+    width: 20px;
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

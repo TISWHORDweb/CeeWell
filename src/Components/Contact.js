@@ -53,7 +53,7 @@ function Contact() {
                             <div className="form">
                                 <h4><b>Unlock Your Business’s Potential - Schedule your free Discovery Call</b></h4>
                                 <p>Got a project? Drop me a line if you want to work together on something exciting. Or do you need our help? Feel free to contact us.</p>
-                                <form action="/action_page.php">
+                                <form action="">
                                     <div className="row">
                                         <div className="col-md-6 mb-3">
                                             <div class="form-group">

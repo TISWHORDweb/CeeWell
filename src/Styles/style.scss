@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -331,7 +332,7 @@ body {
             padding: 0;
             display: flex;
             align-items: center;
-        
+
             li {
                 list-style: none;
                 margin: 5px;
@@ -339,38 +340,52 @@ body {
                 border-radius: 5px;
                 cursor: pointer;
                 padding: 4px 8px;
-                svg{
+
+                svg {
                     height: 20px;
                     width: 20px;
                 }
-                &:hover{
+
+                &:hover {
                     background-color: var(--color-white) !important;
                 }
             }
         }
     }
-    .form{
+
+    .form {
         box-shadow: 0px 16px 72px 0px #061C3D14;
         background-color: var(--color-white);
         border-radius: 20px;
-        h3,b,p,small,span,label{
+
+        h3,
+        b,
+        p,
+        small,
+        span,
+        label {
             font-family: "Inter", sans-serif !important;
         }
-        label{
+
+        label {
             font-size: 14px;
         }
-        input{
+
+        input {
             height: 45px;
         }
-        small{
-            span{
+
+        small {
+            span {
                 color: blue;
             }
         }
+
         font-style: normal;
         padding: 30px;
-        button{
-            img{
+
+        button {
+            img {
                 width: 20px;
                 margin-left: 10px;
             }
@@ -419,8 +434,180 @@ body {
     }
 }
 
+.Review {
+    background-color: var(--color-second);
+    padding: 50px 0;
+
+    .swiper {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 500px;
+        height: 300px;
+        margin: 0 20px;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .swipeCard {
+        display: flex;
+        align-items: center;
+        background-color: var(--color-white);
+        padding: 15px;
+        border-radius: 10px;
+
+        .text {
+            margin-left: 10px;
+            text-align: left;
+
+            p {
+                font-size: 11px;
+            }
+
+            span {
+                font-size: 10px;
+            }
+
+            h4 {
+                font-size: 14px;
+                font-family: var(--big-font);
+                margin: 0;
+            }
+
+        }
+
+        .cl {
+            img {
+                width: 150px;
+            }
+        }
+
+        .img {
+            img {
+                width: 20px;
+                ;
+            }
+
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+        }
+    }
+}
+
+.Footer {
+    background-color: var(--color-default);
+    padding: 50px 0;
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        ul {
+            li {
+                list-style: none;
+                color: grey;
+                font-family: "Inter", sans-serif;
+                font-size: 14px;
+                margin: 5px 0;
+            }
+            .big{
+                font-weight: 800 !important; 
+                font-family: var(--big-font);
+                color: #D0DAF5;
+                font-size: 17px;
+            }
+        }
+    }
+    .big{
+        font-weight: 800 !important; 
+        font-family: var(--big-font);
+        color: #D0DAF5;
+        font-size: 17px;
+    }
+    .email{
+        display: flex;
+        align-items: center;
+        background-color: var(--color-light);
+        border: 2px solid var(--color-light);
+        input{
+            background-color: var(--color-default);
+            height: 45px;
+            padding: 0 10px;
+            width: 85%;
+            margin-right: 5px;
+        }
+        svg{
+            width: 25px ;
+            height: 25px;
+        }
+    }
+    .IMG{
+        img{
+            width: 85%;
+        }
+    }
+    hr{
+        color: var(--color-light);
+    }
+    .down{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            color: grey;
+            font-family: "Inter", sans-serif;
+            font-size: 13px;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            padding: 0;
+            li{
+                list-style: none;
+                color: grey;
+                font-family: "Inter", sans-serif;
+                font-size: 13px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .banPadding {
         padding: 70px 40px;
+    }
+
+    .Review {
+        background-color: var(--color-second);
+        padding: 50px 0;
+
+        .swiper {
+            width: 100%;
+        }
+
+        .swiper-slide {
+            width: 350px;
+            height: 400px;
+            margin: 0 80px;
+        }
+
+        .swipeCard {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .img {
+                img {
+                    width: 20px;
+                    display: none;
+                }
+            }
+        }
     }
 }

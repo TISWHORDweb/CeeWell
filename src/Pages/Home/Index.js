@@ -7,18 +7,22 @@ import BuildingSection from './BuildingSection'
 import Clients from '../../Components/Clients'
 import LearnCloudSection from './Learn&CloudSection'
 import Contact from '../../Components/Contact'
+import Review from '../../Components/Review'
+import Footer from '../../Components/Footer'
 
 function HomePage() {
   return (
     <div>
-        <Navbar />
-        <Banner />
-        <HowSection />
-        <Achievement />
-        <BuildingSection />
-        <Clients />
-        <LearnCloudSection />
-        <Contact />
+      <Navbar />
+      <Banner />
+      <HowSection />
+      <Achievement />
+      <BuildingSection />
+      <Clients />
+      <LearnCloudSection />
+      <Contact />
+      <Review />
+      <Footer />
     </div>
   )
 }
