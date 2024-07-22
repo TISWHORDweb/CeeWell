@@ -1,5 +1,4 @@
 import React from 'react'
-import Img1 from '../../Assets/Images/5460d18f1730a5c9b5d4e97887482a30.jpeg'
 
 function Banner() {
   return (

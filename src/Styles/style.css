@@ -21,6 +21,10 @@
   margin-top: 100px;
 }
 
+.fb {
+  font-family: var(--big-font);
+}
+
 :root {
   --color-default: #151411;
   --color-second: #DCD7D0;
@@ -185,6 +189,28 @@
 .Banner .text p {
   font-size: 20px;
   margin: 20px 0;
+}
+
+.HowSection .one .img2 {
+  width: 60px;
+  margin-left: 70px;
+}
+.HowSection .one .img3 {
+  width: 100%;
+}
+.HowSection .one p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.HowSection .two {
+  min-height: 400px;
+  background-image: url(../Assets/Images/Hero\ image.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.HowSection .down p b {
+  font-family: var(--big-font);
 }
 
 @media only screen and (max-width: 500px) {
