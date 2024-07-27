@@ -6,7 +6,7 @@ import Img3 from '../Assets/Images/ArrowRight.png'
 function Contact() {
     return (
         <div>
-            <div className="Contact py-5">
+            <div className="Contact py-5" id="contact">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5 pe-0">

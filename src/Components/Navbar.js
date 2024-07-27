@@ -29,7 +29,7 @@ function Navbar() {
                             <li>Careers</li>
                             <li className='b-none'><button className='dark-button'>Hire a CFO</button></li>
                         </ul>
-                        
+
                     </div>
                     <div className="social mt100">
                         <ul>
@@ -126,7 +126,7 @@ function Navbar() {
                         </ul>
                         <ul className='nav-right mt-2'>
                             <li><img src={Icon5} alt="" className='globe' /></li>
-                            <li><button className='dark-button'>Hire a CFO</button></li>
+                            <a href="#contact"><li><button className='dark-button'>Hire a CFO</button></li></a>
                             {/* <li><button className='line-button'>Get in Touch</button></li> */}
                         </ul>
                     </div>

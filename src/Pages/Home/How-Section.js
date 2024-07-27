@@ -15,7 +15,7 @@ function HowSection() {
                             <img src={Img2} alt="" className='img2 mb-3'/>
                             <img src={Img3} alt=""  className='img3' />
                             <p>Cee & Wells Ltd, we specialize in creating impactful brand activations that engage and excite your target audience. Our services are designed to bring your brand to life and achieve your strategic goals.</p>
-                            <button className='line-button'> Book an Appointment</button>
+                            <a href="#contact"><button className='line-button'> Book an Appointment</button></a>
                         </div>
                     </div>
                     <div className="col-md-1"></div>

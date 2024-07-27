@@ -10,7 +10,7 @@ function BuildingSection() {
                             <div className="text banPadding" style={{background:"transparent"}}>
                                 <h1>Building a world-class finance </h1>
                                 <p>Scaling up is complex. Simplify it with CFO, cloud accounting, and automation expertise.</p>
-                                <button className='line-button'> Book an Appointment</button>
+                                <a href="#contact"><button className='line-button'> Book an Appointment</button></a>
                             </div>
                         </div>
                         <div className="col-md-6 p-0">
@@ -27,7 +27,7 @@ function BuildingSection() {
                             <div className="text banPadding" style={{background:"white"}}>
                                 <h1>Building a world-class finance </h1>
                                 <p>Scaling up is complex. Simplify it with CFO, cloud accounting, and automation expertise.</p>
-                                <button className='line-button'> Book an Appointment</button>
+                                <a href="#contact"><button className='line-button'> Book an Appointment</button></a>
                             </div>
                         </div>
                     </div>
