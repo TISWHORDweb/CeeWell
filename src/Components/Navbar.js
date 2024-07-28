@@ -4,13 +4,13 @@ import Right from '../Assets/Logo&Icon/Group (1).png'
 import Icon1 from '../Assets/Logo&Icon/Group 38204.png'
 import Icon2 from '../Assets/Logo&Icon/Group 38207.png'
 import Icon3 from '../Assets/Logo&Icon/Group 38209.png'
-import Icon4 from '../Assets/Logo&Icon/Vector.png'
+// import Icon4 from '../Assets/Logo&Icon/Vector.png'
 import Icon5 from '../Assets/Logo&Icon/Group.png'
 import Icon6 from '../Assets/Logo&Icon/Vector (1).png'
 import Icon7 from '../Assets/Logo&Icon/formkit_instagram.png'
 import Icon8 from '../Assets/Logo&Icon/mage_x.png'
 import Icon9 from '../Assets/Logo&Icon/mingcute_facebook-fill.png'
-import Dropdown from './Dropdown'
+// import Dropdown from './Dropdown'
 
 function Navbar() {
     return (
@@ -106,27 +106,27 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mt-0 mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-expanded="false">
+                                <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-expanded="false">
                                     CFO Services
-                                </a>
+                                </span>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                                <span class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
                                     Book Keeping & Account
-                                </a>
+                                </span>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                                <span class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
                                     Insight
-                                </a>
+                                </span>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Careers</a>
+                                <span class="nav-link" href="#">Careers</span>
                             </li>
                         </ul>
                         <ul className='nav-right mt-2'>
                             <li><img src={Icon5} alt="" className='globe' /></li>
-                            <a href="#contact"><li><button className='dark-button'>Hire a CFO</button></li></a>
+                            <span href="#contact"><li><button className='dark-button'>Hire a CFO</button></li></span>
                             {/* <li><button className='line-button'>Get in Touch</button></li> */}
                         </ul>
                     </div>

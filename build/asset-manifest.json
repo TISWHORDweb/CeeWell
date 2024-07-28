@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1c3cfba.css",
+    "main.js": "/static/js/main.aafdb2bb.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/Rectangle 34624626.png": "/static/media/Rectangle 34624626.9fa0e7446650e9150331.png",
+    "static/media/Rectangle 34624626 (1).png": "/static/media/Rectangle 34624626 (1).0970c4259d5a26633ab6.png",
+    "static/media/jpeg": "/static/media/5460d18f1730a5c9b5d4e97887482a30.952f6c44553349b87e6a.jpeg",
+    "static/media/card-header.png": "/static/media/card-header.e8e067770721d0bbf71d.png",
+    "static/media/card-header (2).png": "/static/media/card-header (2).f1cca8e5253008d609c3.png",
+    "static/media/card-header (1).png": "/static/media/card-header (1).ec776932b002c3dda2c5.png",
+    "static/media/Hero image.png": "/static/media/Hero image.dea41ce30cc2a1a02160.png",
+    "static/media/Image.png": "/static/media/Image.0c12ac5b223a4e97b3c0.png",
+    "static/media/Stroke and borderline.png": "/static/media/Stroke and borderline.9b3e0aaa1c872f4ac15d.png",
+    "static/media/Company Logo (4).png": "/static/media/Company Logo (4).3e49c7dec56e5a792b32.png",
+    "static/media/Company Logo (2).png": "/static/media/Company Logo (2).be12fbf774e21680d44b.png",
+    "static/media/Company Logo (5).png": "/static/media/Company Logo (5).be12fbf774e21680d44b.png",
+    "static/media/Group 38209.png": "/static/media/Group 38209.02a644f13e3599759a49.png",
+    "static/media/Group 38204.png": "/static/media/Group 38204.8abac5147bee921a40cb.png",
+    "static/media/Group 38207.png": "/static/media/Group 38207.03af970a1508714a7124.png",
+    "static/media/Company Logo.png": "/static/media/Company Logo.5955c724d92d68524b7e.png",
+    "static/media/Company Logo (1).png": "/static/media/Company Logo (1).f84a443ca3650abb3ee9.png",
+    "static/media/CanelaText-Bold-Trial.otf": "/static/media/CanelaText-Bold-Trial.c0ab8106361bf71028dc.otf",
+    "static/media/CanelaText-Light-Trial.otf": "/static/media/CanelaText-Light-Trial.c604f24e95f525a751cb.otf",
+    "static/media/Frame 2085662383 (1).png": "/static/media/Frame 2085662383 (1).3211c57913db72446bc1.png",
+    "static/media/Frame 2085662383.png": "/static/media/Frame 2085662383.df8b1761ac05f3d5e56f.png",
+    "static/media/Company Logo (3).png": "/static/media/Company Logo (3).f6cf6528215c6cd75e7a.png",
+    "index.html": "/index.html",
+    "main.d1c3cfba.css.map": "/static/css/main.d1c3cfba.css.map",
+    "main.aafdb2bb.js.map": "/static/js/main.aafdb2bb.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1c3cfba.css",
+    "static/js/main.aafdb2bb.js"
+  ]
+}
