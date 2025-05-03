@@ -10,6 +10,7 @@ import Icon6 from '../Assets/Logo&Icon/Vector (1).png'
 import Icon7 from '../Assets/Logo&Icon/formkit_instagram.png'
 import Icon8 from '../Assets/Logo&Icon/mage_x.png'
 import Icon9 from '../Assets/Logo&Icon/mingcute_facebook-fill.png'
+import { Link } from 'react-router-dom'
 // import Dropdown from './Dropdown'
 
 function Navbar() {
@@ -41,7 +42,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            {/* <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog ">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -94,7 +95,7 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="/" className='logo'>
@@ -106,28 +107,44 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mt-0 mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
-                                <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-expanded="false">
-                                    CFO Services
+                            <Link to="/services"> 
+                                {/* <span class="nav-link " href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-expanded="false"> */}
+                                <span class="nav-link " href="#" role="button" aria-expanded="false">
+                                  CFO Services
                                 </span>
+                                </Link>
                             </li>
                             <li class="nav-item dropdown">
-                                <span class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                            <Link to="/accounting"> 
+                                <span class="nav-link " href="#" role="button" aria-expanded="false">
                                     Book Keeping & Account
                                 </span>
+                                </Link>
                             </li>
                             <li class="nav-item dropdown">
-                                <span class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                            <Link to="/insights"> 
+                                <span class="nav-link " href="#" role="button" aria-expanded="false">
                                     Insight
                                 </span>
+                                </Link>
                             </li>
                             <li class="nav-item">
+                            <Link to="/career"> 
                                 <span class="nav-link" href="#">Careers</span>
+                                </Link>
+                            </li>
+                            <li class="nav-item">
+                            <Link to="/contact"> 
+                                <span class="nav-link" href="#">Contact</span>
+                                </Link>
                             </li>
                         </ul>
                         <ul className='nav-right mt-2'>
                             <li><img src={Icon5} alt="" className='globe' /></li>
+                            <Link to="/contact"> 
                             <span href="#contact"><li><button className='dark-button'>Hire a CFO</button></li></span>
                             {/* <li><button className='line-button'>Get in Touch</button></li> */}
+                            </Link>
                         </ul>
                     </div>
                 </div>
