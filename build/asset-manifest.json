@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1c3cfba.css",
-    "main.js": "/static/js/main.aafdb2bb.js",
+    "main.css": "/static/css/main.411a0636.css",
+    "main.js": "/static/js/main.7e373f24.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/Rectangle 34624626.png": "/static/media/Rectangle 34624626.9fa0e7446650e9150331.png",
     "static/media/Rectangle 34624626 (1).png": "/static/media/Rectangle 34624626 (1).0970c4259d5a26633ab6.png",
     "static/media/jpeg": "/static/media/5460d18f1730a5c9b5d4e97887482a30.952f6c44553349b87e6a.jpeg",
+    "static/media/3.png": "/static/media/3.b75b30f4c8a18f32b57c.png",
+    "static/media/1.png": "/static/media/1.7f421b54a77e9650ec5d.png",
+    "static/media/2.jpg": "/static/media/2.780477f38a131ccad760.jpg",
     "static/media/card-header.png": "/static/media/card-header.e8e067770721d0bbf71d.png",
+    "static/media/6.jpg": "/static/media/6.a35d5859c18047d97df9.jpg",
     "static/media/card-header (2).png": "/static/media/card-header (2).f1cca8e5253008d609c3.png",
+    "static/media/4.jpg": "/static/media/4.2dc5693c83ed0da1225d.jpg",
     "static/media/card-header (1).png": "/static/media/card-header (1).ec776932b002c3dda2c5.png",
     "static/media/Hero image.png": "/static/media/Hero image.dea41ce30cc2a1a02160.png",
+    "static/media/5.jpg": "/static/media/5.c48bb84133c196788741.jpg",
     "static/media/Image.png": "/static/media/Image.0c12ac5b223a4e97b3c0.png",
+    "static/media/7.jpg": "/static/media/7.ddab708feeb344000348.jpg",
     "static/media/Stroke and borderline.png": "/static/media/Stroke and borderline.9b3e0aaa1c872f4ac15d.png",
     "static/media/Company Logo (4).png": "/static/media/Company Logo (4).3e49c7dec56e5a792b32.png",
     "static/media/Company Logo (2).png": "/static/media/Company Logo (2).be12fbf774e21680d44b.png",
@@ -26,12 +33,12 @@
     "static/media/Frame 2085662383.png": "/static/media/Frame 2085662383.df8b1761ac05f3d5e56f.png",
     "static/media/Company Logo (3).png": "/static/media/Company Logo (3).f6cf6528215c6cd75e7a.png",
     "index.html": "/index.html",
-    "main.d1c3cfba.css.map": "/static/css/main.d1c3cfba.css.map",
-    "main.aafdb2bb.js.map": "/static/js/main.aafdb2bb.js.map",
+    "main.411a0636.css.map": "/static/css/main.411a0636.css.map",
+    "main.7e373f24.js.map": "/static/js/main.7e373f24.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c3cfba.css",
-    "static/js/main.aafdb2bb.js"
+    "static/css/main.411a0636.css",
+    "static/js/main.7e373f24.js"
   ]
 }

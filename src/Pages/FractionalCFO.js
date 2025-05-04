@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import Contact from '../Components/Contact'
 import BannerImage from '../Assets/Images/1.png'
 import TeamDiscussionImage from '../Assets/Images/2.jpg'
 import { FiTarget, FiTrendingUp, FiPieChart, FiDollarSign, FiBarChart2 } from 'react-icons/fi'
